@@ -11,7 +11,7 @@ html {
 header {
   position: relative;
   height: 100vh;
-  background-image: url(../img/empire.jpg);
+  background-image: url("https://luk-em.github.io/MiniWebsite2/img/empire.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
