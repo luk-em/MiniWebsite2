@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border box;
+}
+
+html {
+  font-family: calibri, sans-serif;
+}
+
+header {
+  position: relative;
+  height: 100vh;
+  background-image: url(../img/empire.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+}
+
+img.log {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+
+header h1 {
+  top: 50%;
+  width: 100%;
+  position: absolute;
+  font-size: 60px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.75);
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+
+header button {
+  position: absolute;
+  bottom: 60px;
+  right: 50px;
+  font-size: 25px;
+  padding: 15px;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  border: 1px solid white;
+  transition: 0.3s;
+}
+
+header button:hover {
+  color: gold;
+  border: 2px solid gold;
+
+}
+
+@media (max-width: 812px) and (orientation: landscape) {
+  header .log {
+    width: 20%;
+  }
+
+  header h1 {
+    font-size: 30px;
+  }
+
+  header button {
+    font-size: 10px;
+    bottom: 5%;
+  }
+}
+
+@media (max-width: 812px) and (orientation: portrait) {
+  header .log {
+    width: 70%;
+    left: 15%;
+  }
+
+  header h1 {
+    font-size: 30px;
+  }
+
+  header button {
+    font-size: 20px;
+    bottom: 10%;
+    left: 10%;
+  }
+}
+
+@media (max-width: 720px) and (orientation: portrait) {
+  header .log {
+    top: 5%;
+    width: 70%;
+    left: 15%;
+  }
+
+  header h1 {
+    font-size: 30px;
+  }
+
+  header button {
+    font-size: 25px;
+    bottom: 15%;
+    left: 8%;
+  }
+}
+
+@media (max-width: 360px) and (orientation: portrait) {
+  header .log {
+    top: 5%;
+    width: 70%;
+    left: 15%;
+  }
+
+  header h1 {
+    font-size: 30px;
+  }
+
+  header button {
+    font-size: 20px;
+    bottom: 15%;
+    left: 11%;
+  }
+}
+
+section {
+  margin-top: 80px;
+  line-height: 30px;
+  text-align: justify;
+  width: 90%;
+  margin: 80px auto 0;
+
+
+}
